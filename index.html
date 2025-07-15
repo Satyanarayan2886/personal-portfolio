@@ -6,8 +6,7 @@
   <title>Satyanarayan Bairwa - Portfolio</title>
 
   <link rel="stylesheet" href="style.css" />
-  <script src="script.js"></script>
-
+  <script defer src="script.js"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
@@ -15,7 +14,7 @@
   <!-- Header -->
   <header>
     <div class="container">
-     <h1 id="typing"></h1>
+      <h1 id="typing"></h1>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
@@ -40,58 +39,74 @@
     <!-- Main Section -->
     <main class="main-content">
       <section id="about" class="about-section">
-  <div class="about-container">
-    <div class="about-photo">
-      <img src="profile.jpg" alt="My Profile Picture" />
-    </div>
-    <div class="about-info">
-      <h2>About Me</h2>
-      <p>
-        I am a passionate Full Stack Web Developer with a strong foundation
-        in building responsive and user-friendly websites. Skilled in
-        front-end technologies like HTML, CSS, and JavaScript, as well as
-        back-end frameworks such as Node.js and Express. I enjoy solving
-        real-world problems with clean, efficient code and constantly strive
-        to learn and adapt to new technologies in the ever-evolving web
-        development landscape.
-      </p>
-    </div>
-  </div>
-</section>
-
+        <div class="about-container">
+          <div class="about-photo">
+            <img src="profile.jpg" alt="My Profile Picture" />
+          </div>
+          <div class="about-info">
+            <h2>About Me</h2>
+            <p>
+              I am a passionate Full Stack Web Developer with a strong foundation
+              in building responsive and user-friendly websites. Skilled in
+              front-end technologies like HTML, CSS, and JavaScript, as well as
+              back-end frameworks such as Node.js and Express. I enjoy solving
+              real-world problems with clean, efficient code and constantly strive
+              to learn and adapt to new technologies in the ever-evolving web
+              development landscape.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <section id="projects">
-  <h2>Projects</h2>
+        <h2>Projects</h2>
 
-  <!-- Project 1 -->
-  <div class="project-container">
-    <div class="project-image">
-      <img src="project 1.jpg" alt="Project 1" />
-    </div>
-    <div class="project-info">
-      <h3>Weather App</h3>
-      <p>
-        A simple weather app that fetches real-time weather data using the OpenWeatherMap API. Features a clean UI, search functionality, and responsive design.
-      </p>
-      <a href="#" class="btn">View Project</a>
-    </div>
-  </div>
+        <!-- Project 1 -->
+        <div class="project-container">
+          <div class="project-image">
+            <img src="project 1.jpg" alt="Project 1" />
+          </div>
+          <div class="project-info">
+            <h3>Weather App</h3>
+            <p>
+              A simple weather app that fetches real-time weather data using the OpenWeatherMap API. Features a clean UI, search functionality, and responsive design.
+            </p>
+            
 
-  <!-- Project 2 -->
-  <div class="project-container reverse">
-    <div class="project-image">
-      <img src="project 2.jpg" alt="Project 2" />
-    </div>
-    <div class="project-info">
-      <h3>Portfolio Website</h3>
-      <p>
-        A modern personal portfolio to showcase my skills, projects, and contact information. Designed with HTML, CSS, and JavaScript for smooth animations.
-      </p>
-      <a href="#" class="btn">View Project</a>
-    </div>
-  </div>
-</section>
+            <a href="https://github.com/Satyanarayan2886/weather-app-webpage.git" target="_blank" class="btn">View Project</a>
+          </div>
+        </div>
 
+        <!-- Project 2 -->
+        <div class="project-container reverse">
+          <div class="project-image">
+            <img src="project 2.jpg" alt="Project 2" />
+          </div>
+          <div class="project-info">
+            <h3>Portfolio Website</h3>
+            <p>
+              A modern personal portfolio to showcase my skills, projects, and contact information. Designed with HTML, CSS, and JavaScript for smooth animations.
+            </p>
+            <a href="https://github.com/Satyanarayan2886/personal-portfolio.git" target="_blank" class="btn">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-container">
+          <div class="project-image">
+            <img src="ebus.png" alt="Ebus Management System" />
+          </div>
+          <div class="project-info">
+            <h3>Ebus Management System</h3>
+            <p>
+              A real-time bus tracking web application using Firebase and Google Maps APIs. 
+              Drivers post live GPS locations, while users search buses by route, track them on a map, 
+              and view estimated arrival times. Built with HTML, CSS, JavaScript, and Firebase Realtime DB.
+            </p>
+             <a href="https://github.com/Satyanarayan2886/ebus-management-system" target="_blank" class="btn">View Project</a>
+          </div>
+        </div>
+      </section>
 
       <section id="contact">
         <h2>Contact</h2>
@@ -109,6 +124,9 @@
       </section>
     </main>
   </div>
+
+  <!-- Glowing Cursor -->
+  <div class="custom-cursor" id="customCursor"></div>
 
   <!-- Footer -->
   <footer>
